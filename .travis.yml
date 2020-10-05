@@ -3,6 +3,9 @@ node_js:
   - "12"
 install:
   - yarn
+script:
+  - npm test
+  - npm run build  
 deploy:
   provider: firebase
   token:
