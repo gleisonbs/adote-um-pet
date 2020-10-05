@@ -11,8 +11,8 @@
     "react-scripts": "3.4.3",
     "travis": "^0.1.1"
   },
-  "engines" : { 
-    "node" : ">=12" 
+  "engines": {
+    "node": ">=12"
   },
   "scripts": {
     "start": "react-scripts start",
