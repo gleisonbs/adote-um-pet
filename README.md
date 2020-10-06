@@ -4,9 +4,7 @@ Este projeto é uma iniciativa sem fins lucrativos para promover de forma eficaz
 
 ### URLs (temporário)
 
-Web app:<br />
-[Adote um pet](https://adote-um-pet-df1b0.web.app/)
+[![Web app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://adote-um-pet-df1b0.web.app/)
 
-Firebase app:<br />
-[Adote um pet](https://adote-um-pet-df1b0.firebaseapp.com/)
+[![Firebase app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://adote-um-pet-df1b0.firebaseapp.com/)
 
