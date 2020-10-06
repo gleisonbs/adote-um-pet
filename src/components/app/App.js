@@ -4,7 +4,7 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      <p>Webhook test</p>
+      <p>Webhook test, second try</p>
     </div>
   );
 }
