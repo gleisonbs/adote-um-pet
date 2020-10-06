@@ -1,4 +1,4 @@
-## Adote um pet
+## Adote um pet <img align="right" src="https://travis-ci.org/gleisonbs/adote-um-pet.svg?branch=master">
 
 Este projeto é uma iniciativa sem fins lucrativos para promover de forma eficaz e transparente a adoção de PETs nos centros urbanos.
 
