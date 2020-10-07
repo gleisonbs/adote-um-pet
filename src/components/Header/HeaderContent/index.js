@@ -7,7 +7,7 @@ import styles from './HeaderContent.module.css'
 const headerContent = () => (
     <div className={styles.HeaderContent}>
         <Toolbar />
-        <HeaderMessage>Seu novo melhor amigo está aqui.</HeaderMessage>
+        <HeaderMessage message="Seu novo melhor amigo está aqui."/>
         <SearchBar />
     </div>
   );
