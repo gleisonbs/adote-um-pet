@@ -4,8 +4,8 @@ import styles from './NavigationItems.module.css'
 
 const navigationItems = () => (
     <div className={styles.NavigationItems}>
-      <NavigationItem url="/about">Sobre nós</NavigationItem>
-      <NavigationItem url="/donate">Seja um doador</NavigationItem>
+      <NavigationItem uri="/about">Sobre nós</NavigationItem>
+      <NavigationItem uri="/donate">Seja um doador</NavigationItem>
     </div>
   );
 

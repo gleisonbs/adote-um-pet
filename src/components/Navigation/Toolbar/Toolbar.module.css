@@ -4,3 +4,7 @@
     height: 40px;
     align-items: center;
 }
+
+.FloatRight {
+    display:inline-flex;
+}

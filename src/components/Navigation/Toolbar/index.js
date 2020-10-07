@@ -8,7 +8,9 @@ const toolbar = () => (
     <div className={styles.Toolbar}>
       <Logo />
       <NavigationItems />
-      <NavigationItem url="/signin">Login</NavigationItem>
+      <NavigationItem style={styles.FloatRight} uri="/signin">
+        Login
+      </NavigationItem>
     </div>
   );
 
