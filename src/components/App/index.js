@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header'
-import Home from '../../components/Home/Home'
+import Home from '../Home/Home'
 import Layout from '../../hoc/Layout/Layout'
 import classes from './App.module.css'
 
