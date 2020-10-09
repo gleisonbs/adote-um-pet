@@ -1,10 +1,15 @@
 import React from 'react';
 import styles from './Header.module.css'
-import HeaderContent from './HeaderContent';
+import HeaderMessage from './HeaderMessage'
+import SearchBar from '../SearchBar'
+
+import Toolbar from '../Navigation/Toolbar'
 
 const header = () => (
     <div className={styles.Header}>
-        <HeaderContent />
+        <Toolbar />
+        <HeaderMessage message="Seu novo melhor amigo está aqui."/>
+        <SearchBar />
     </div>
   );
 

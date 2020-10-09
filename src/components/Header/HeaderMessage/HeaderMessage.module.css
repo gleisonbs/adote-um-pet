@@ -1,0 +1,9 @@
+.HeaderMessage {
+    width: 300px;
+    text-align: left;
+    font-size: 3.2em;
+    line-height: 1.3em;
+    color: white;
+    grid-area: headermessage;
+    align-self: center;
+}
