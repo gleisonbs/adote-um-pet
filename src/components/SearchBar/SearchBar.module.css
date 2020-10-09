@@ -1,25 +1,29 @@
 .SearchBar {
-    display: flex;
     width: 100%;
-    margin: 50px auto;
+    margin: auto;
+    align-self: baseline;
+    display: grid !important;
+    grid-area: searchbar;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "input optpets optcities btnsearch";
 }
 
 .SearchBar input {
-    padding: 5px 5px 5px 20px;
-    color: #888;
-    height: 50px;
-    width: 400px;
-    border: 0;
-    border-radius: 10px 0 0 10px;
-    box-sizing: border-box;
+    grid-area: input;
+    border-radius: 10px 0 0 10px !important;
+}
+
+.SearchBar #opt-pets {
+    grid-area: optpets;
+}
+
+.SearchBar #opt-cities {
+    grid-area: optcities;
 }
 
 .SearchBar button {
-    padding: 5px;
-    text-align: center;
-    width: 150px;
-    border: 1px #bbb solid;
-    color: white;
-    border-radius: 0 10px 10px 0;
-    background-color: var(--c-aquagreen);
+    grid-area: btnsearch;
+    background-color: var(--c-aquagreen) !important;
+    border-radius: 0 10px 10px 0 !important;
 }

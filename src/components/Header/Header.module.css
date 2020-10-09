@@ -1,5 +1,12 @@
 .Header {
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: var(--c-orange);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-areas: 
+        ". toolbar ."
+        ". headermessage ."
+        ". searchbar .";
 }
