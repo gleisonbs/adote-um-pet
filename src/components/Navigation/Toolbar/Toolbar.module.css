@@ -1,10 +1,12 @@
 .Toolbar {
     display: flex;
+    flex-direction: row;
     margin: 0 auto 50px auto;
     height: 40px;
     align-items: center;
+    grid-area: toolbar;
 }
 
 .FloatRight {
-    display:inline-flex;
+    display: inline-flex;
 }
