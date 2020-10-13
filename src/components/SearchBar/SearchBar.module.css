@@ -1,5 +1,7 @@
 .SearchBar {
     width: 100%;
+    height: 50px;
+    color: var(--c-white);
     margin: auto;
     align-self: baseline;
     display: grid !important;
@@ -7,6 +9,8 @@
     grid-template-columns: 2fr 1fr 1fr auto;
     grid-template-rows: 1fr;
     grid-template-areas: "input optpets optcities btnsearch";
+    font-size: 1.2em !important;
+    vertical-align: sub !important;
 }
 
 .SearchBar input {
@@ -16,6 +20,7 @@
 
 .SearchBar #opt-pets {
     grid-area: optpets;
+    font-size: 1.2em;
 }
 
 .SearchBar #opt-cities {
@@ -26,4 +31,5 @@
     grid-area: btnsearch;
     background-color: var(--c-aquagreen) !important;
     border-radius: 0 10px 10px 0 !important;
+    color: var(--c-white) !important;
 }
