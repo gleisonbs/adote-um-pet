@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Select, Button } from 'semantic-ui-react'
+import { Input, Button, Dropdown } from 'semantic-ui-react'
 import styles from './SearchBar.module.css'
 
 const pets = [
@@ -13,11 +13,11 @@ const cities = [
 ];
 
 const searchBar = () => (
-  <Input className={styles.SearchBar} type="text" placeholder="Como vai ser o seu pet?" action>
+  <Input className={styles.SearchBar} type="text" placeholder="Como será seu próximo pet?" action>
     <input />
-    <Select id="opt-pets" options={pets} defaultValue="dog" />
-    <Select id="opt-cities" options={cities} defaultValue="sao_paulo" />
-    <Button id="btn-search">Pesquisar</Button>
+    <Dropdown id="opt-pets" placeholder='Cachorro' fluid selection options={pets} />
+    <Dropdown id="opt-cities" placeholder='São Paulo' fluid selection options={cities} />
+    <Button id="btn-search">PESQUISAR</Button>
   </Input>
 );
 
