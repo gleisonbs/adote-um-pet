@@ -1,7 +1,8 @@
 .NavigationItems {
     display: flex;
+    grid-area: navitems;
     height: 100%;
     width: 300px;
     align-items: center;
-    justify-content: space-evenly;
+    text-align: right;
 }

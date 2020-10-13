@@ -3,7 +3,7 @@ import styles from './NavigationItem.module.css'
 import { NavLink } from 'react-router-dom'
 
 const navigationItem = props => (
-  <div className={styles.navigationItem}>
+  <div className={styles.NavigationItem}>
     <NavLink to={props.uri}>
       {props.children}
     </NavLink>
