@@ -1,7 +1,7 @@
 .HeaderMessage {
-    width: 300px;
+    width: 400px;
     text-align: left;
-    font-size: 3.2em;
+    font-size: 4.2em;
     line-height: 1.3em;
     color: white;
     grid-area: headermessage;

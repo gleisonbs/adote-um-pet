@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from './Home.module.css'
-import PetList from '../Pet/PetList/PetList';
 
-const home = () => (
+const home = (props) => (
     <div className={classes.Home}>
-      <p>Home</p>
-      <PetList />
+      {
+      props.count > 0 ?
+        <h3>Mais de  bichinhos a procura de um lar</h3> :
+        <></>
+      }
     </div>
   );
 
