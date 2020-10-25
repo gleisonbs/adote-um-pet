@@ -1,0 +1,17 @@
+.Item {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.Item img {
+    max-height: 2500px;
+    max-width: 250px;
+    width: auto;
+    height: auto;
+}
+
+.Item div {
+    margin: auto;
+    justify-content: space-around;
+}
