@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from './Header.module.css'
 import HeaderMessage from './HeaderMessage'
 import SearchBar from '../SearchBar'
-
-import Toolbar from '../Navigation/Toolbar'
+import Toolbar from '../Toolbar'
+import styles from './Header.module.css'
 
 const header = () => (
     <div className={styles.Header}>
