@@ -34,7 +34,7 @@ class Auth extends Component {
             </Segment>
           </Form>
           <Message>
-            Primeiro acesso? <a href='#'>Registre-se</a>
+            Primeiro acesso? <strong>Registre-se aqui</strong>
           </Message>
         </Grid.Column>
       </Grid>
