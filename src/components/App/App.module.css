@@ -12,6 +12,9 @@
   --c-darkgray: #686868;
   --c-gray: #929292;
   --c-lightgraytransparency: rgba(250, 250, 250, 0.8);
+
+  --c-facebook: #3B5998;
+  --c-googleborder: #9E9E9E;
 }
 
 .App {
