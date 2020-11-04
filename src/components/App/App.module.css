@@ -7,6 +7,11 @@
   --c-darkred: #D46C57;
   --c-white: #FFF;
   --c-black: #000;
+  --c-lightgray: #FAFAFA;
+  --c-chumbo: #4D4D4D;
+  --c-darkgray: #686868;
+  --c-gray: #929292;
+  --c-lightgraytransparency: rgba(250, 250, 250, 0.8);
 }
 
 .App {
