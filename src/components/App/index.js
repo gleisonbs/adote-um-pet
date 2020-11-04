@@ -1,4 +1,5 @@
 import React from 'react';
+import Auth from '../../containers/Auth';
 import Header from '../Header';
 import Home from '../Home';
 import About from '../About';
