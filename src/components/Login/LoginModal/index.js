@@ -15,7 +15,7 @@ function LoginModal({ id = 'modal', onClose = () => {}}) {
             <div className={styles.Container}>
                 <button className={styles.CloseBtn} onClick={onClose} />
                 <div className={styles.Content}>
-                    <h3>Hora de fazer a diferença!</h3>
+                    <h3>Hora de fazer a diferença.</h3>
                     <div className={styles.SocialMediaContainer}>
                         <div className={styles.SocialMediaDiv}>
                             <button className={styles.FacebookButton}>
