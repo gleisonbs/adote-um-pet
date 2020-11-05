@@ -19,13 +19,13 @@ function LoginModal({ id = 'modal', onClose = () => {}}) {
                     <div className={styles.SocialMediaContainer}>
                         <div className={styles.SocialMediaDiv}>
                             <button className={styles.FacebookButton}>
-                                <img src={fbLogo} className={styles.socialMediaIconFacebook}/>
+                                <img src={fbLogo} alt="Facebook icon" className={styles.socialMediaIconFacebook}/>
                                 Entrar com o facebook
                             </button>
                         </div>
                         <div className={styles.SocialMediaDiv}>
                             <button className={styles.GoogleButton}>
-                                <img src={glLogo} className={styles.socialMediaIconGoogle}/>
+                                <img src={glLogo} alt="Google icon" className={styles.socialMediaIconGoogle}/>
                                 Entrar com o Google
                             </button>
                         </div>
