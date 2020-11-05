@@ -2,3 +2,14 @@
     grid-area: login;
     text-align: right;
 }
+
+.LoginBtn {
+    background: transparent;
+    color: var(--c-white);
+    border: none;
+    font-size: 19px;
+}
+
+.LoginBtn:hover {
+    cursor: pointer;
+}
