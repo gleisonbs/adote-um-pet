@@ -1,0 +1,144 @@
+.Modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--c-lightgraytransparency);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.Container {
+    position: inherit;
+    background-color: var(--c-lightgray);
+    width: 420px;
+    height: 470px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.CloseBtn {
+    background-color: transparent;
+    color: var(--c-darkgray);
+    border: none;
+    font-size: 19px;
+    margin: 10px 5px 0 0;
+    font-weight: bold;
+}
+
+.CloseBtn::after {
+    content: 'X';
+}
+
+.Content {
+    position: relative;
+    display: block;
+}
+
+.Content .SocialMediaContainer .SocialMediaDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 28px 50px;
+}
+
+.Content > .SocialMediaContainer > .SocialMediaDiv > button {
+    display: inherit; 
+    margin: 5px 0 5px 0;
+    
+    position: absolute;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.Content > h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Content button {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27px;
+    font-weight: 500;
+
+    border-radius: 4px;
+    width: 330px;
+    height: 40px;
+}
+
+.FacebookButton {
+    background-color: var(--c-facebook);
+    color: var(--c-white);
+    border: 0px;
+}
+
+.GoogleButton {
+    background-color: var(--c-white);
+    box-sizing: border-box;
+    border: 1px solid var(--c-googleborder);
+    color: var(--c-black);
+}
+
+.socialMediaIconFacebook {
+    width: 15px;
+    height: 25px;
+    margin: 0px 5px 0px 0px;
+}
+
+.socialMediaIconGoogle {
+    width: 25px;
+    height: 25px;
+    margin: 0px 5px 0px 0px;
+}
+
+.LoginSplitter {
+    position: relative;
+    display: flex;
+
+    margin: 15px;
+}
+
+.LoginSplitter > hr {
+    border: 1px solid #C9C9C9;
+    width: 150px;
+}
+
+.FormContainer {
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormContainer > form > input {
+    display: inherit; 
+    margin: 5px 0 17px 0;
+
+    border-radius: 4px;
+
+    width: 330px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid var(--c-googleborder);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    text-align: center;
+    font-weight: 500;
+    color: var(--c-darkgray);
+}
+
+.FormContainer button {
+    margin-top: 20px;
+    background-color: var(--c-aquagreen);
+    color: var(--c-white);
+    border: 0px;
+}
