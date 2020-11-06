@@ -8,7 +8,7 @@ const toolbar = () => (
     <div className={styles.Toolbar}>
       <Logo />
       <NavigationItems />
-      <Login uri="/signin">Login</Login>
+      <Login uri="/auth">Login</Login>
     </div>
   );
 

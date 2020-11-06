@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../Header';
 import Auth from '../../containers/Auth';
+import Header from '../Header';
 import Home from '../Home';
 import About from '../About';
 import Layout from '../../hoc/Layout/Layout';
@@ -13,6 +13,7 @@ const app = () => (
       <Header />
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
+      <Route path="/auth" component={Auth} />
     </Layout>
   </div>
 );

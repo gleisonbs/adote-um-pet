@@ -5,7 +5,6 @@ const initialState = {
 }
 
 const authStart = (state, action) => {
-    console.log('authenticating');
     return state
 }
 

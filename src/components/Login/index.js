@@ -1,13 +1,19 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react';
 import styles from './Login.module.css'
 
-const login = props => (
-    <div className={styles.Login}>
-        <NavLink to={props.uri}>
-            {props.children}
-        </NavLink>
-    </div>
-);
+import LoginModal from './LoginModal';
 
-export default login;
+const Login = () => {
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+    return (
+        <div className={styles.Login}>
+            <button onClick={() => setIsModalVisible(true)} className={styles.LoginBtn}>
+                Login
+            </button>
+            {isModalVisible ? <LoginModal onClose={() => setIsModalVisible(false)} /> : null}
+        </div>
+    );
+}
+
+export default Login;
