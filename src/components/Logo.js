@@ -1,12 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
-import styles from '../styles/Logo.module.css'
+import { NavLink } from 'react-router-dom';
+import styles from '../styles/Logo.module.css';
 
 const logo = () => (
   <div className={styles.Logo}>
-    <NavLink to="/">
-      LOGO
-    </NavLink>
+    <NavLink to="/">LOGO</NavLink>
   </div>
 );
 

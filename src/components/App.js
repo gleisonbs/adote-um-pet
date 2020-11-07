@@ -1,10 +1,10 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import About from '../pages/About';
 import Auth from '../pages/Auth';
 import Home from '../pages/Home';
 import Header from './Header';
 import Layout from '../hoc/Layout';
-import { Route } from 'react-router-dom';
 import styles from '../styles/App.module.css';
 
 const app = () => (
