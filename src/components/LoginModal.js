@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './LoginModal.module.css'
+import styles from '../styles/LoginModal.module.css'
 
-import fbLogo from '../../../images/fbLogo.png';
-import glLogo from '../../../images/glLogo.png';
+import fbLogo from '../images/fbLogo.png';
+import glLogo from '../images/glLogo.png';
 
 function LoginModal({ id = 'modal', onClose = () => {}}) {
 

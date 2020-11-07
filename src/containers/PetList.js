@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import axiosPets from '../../../axios/axios-pets'
-import Pet from '../../../components/Pet'
+import axiosPets from '../axios/axios-pets'
+import PetItem from '../components/PetItem'
 
 class List extends Component {
   state = {
@@ -21,7 +21,7 @@ class List extends Component {
   }
 
   render() {
-    const pets = this.state.pets.map((p, i) => <Pet.Item key={i} {...p} />)
+    const pets = this.state.pets.map((p, i) => <PetItem key={i} {...p} />)
 
     return (
       <>

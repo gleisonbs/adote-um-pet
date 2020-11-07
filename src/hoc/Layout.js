@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Layout.module.css'
+import styles from '../styles/Layout.module.css'
 
 const layout = props => (
-    <div className={classes.Layout}>
+    <div className={styles.Layout}>
       {props.children}
     </div>
   );

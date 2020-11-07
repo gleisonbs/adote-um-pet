@@ -1,6 +1,6 @@
 import React from 'react';
-import Pet from '../../containers/Pet'
-import styles from './Home.module.css'
+import PetList from '../containers/PetList'
+import styles from '../styles/Home.module.css'
 
 const home = (props) => (
   <div className={styles.Home}>
@@ -9,7 +9,7 @@ const home = (props) => (
         <h3>Mais de {props.count - 1} bichinhos a procura de um lar</h3> :
         <></>
     }
-    <Pet.List />
+    <PetList />
   </div>
 );
 

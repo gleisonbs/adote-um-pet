@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Details.module.css'
+import styles from '../styles/Details.module.css'
 
 const details = () => (
-    <div className={classes.Details}>
+    <div className={styles.Details}>
       <p>Details</p>
     </div>
   );
