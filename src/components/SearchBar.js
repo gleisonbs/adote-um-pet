@@ -1,6 +1,6 @@
 import React from 'react';
 import { Input, Button, Dropdown } from 'semantic-ui-react'
-import styles from './SearchBar.module.css'
+import styles from '../styles/SearchBar.module.css'
 
 const pets = [
   { key: "dog", text: "Cachorro", value: "dog" },

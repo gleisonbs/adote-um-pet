@@ -1,14 +1,14 @@
 import React from 'react';
 import NavigationItems from './NavigationItems'
-import Login from '../Login'
-import styles from './Toolbar.module.css'
-import Logo from '../UI/Logo';
+import Auth from '../pages/Auth'
+import Logo from './Logo';
+import styles from '../styles/Toolbar.module.css'
 
 const toolbar = () => (
     <div className={styles.Toolbar}>
       <Logo />
       <NavigationItems />
-      <Login uri="/auth">Login</Login>
+      <Auth uri="/auth">Login</Auth>
     </div>
   );
 

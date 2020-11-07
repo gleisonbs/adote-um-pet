@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import styles from './Login.module.css'
+import styles from '../styles/Login.module.css'
 
-import LoginModal from './LoginModal';
+import LoginModal from '../components/LoginModal';
 
-const Login = () => {
+const Auth = () => {
     const [isModalVisible, setIsModalVisible] = useState(false);
 
     return (
@@ -16,4 +16,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Auth;

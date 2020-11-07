@@ -1,6 +1,6 @@
 import React from 'react';
 import NavigationItem from './NavigationItem'
-import styles from './NavigationItems.module.css'
+import styles from '../styles/NavigationItems.module.css'
 
 const navigationItems = () => (
     <div className={styles.NavigationItems}>

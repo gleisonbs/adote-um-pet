@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Item.module.css'
+import styles from '../styles/Item.module.css'
 
 const item = props => (
-    <div className={classes.Item}>
+    <div className={styles.Item}>
       <img src={props.imageURL} alt={props.type} />
       <div>{props.name}</div>
     </div>
