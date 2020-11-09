@@ -1,0 +1,4 @@
+**/tests/*.test.js
+.gitignore
+**/node_modules/
+**/build/
