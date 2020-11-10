@@ -51,9 +51,9 @@ const LoginModal = ({ id = 'modal', onClose = () => {} }) => {
           </div>
           <div className={styles.FormContainer}>
             <form>
-              <input placeholder="Email" />
-              <input placeholder="Senha" />
-              <button type="submit" value="Entrar">
+              <input name="email" placeholder="Email" />
+              <input name="password" placeholder="Senha" />
+              <button name="signin" type="submit" value="Entrar">
                 Entrar
               </button>
             </form>
