@@ -1,11 +1,11 @@
 import React from 'react';
-import Auth from '../../containers/Auth';
-import Header from '../Header';
-import Home from '../Home';
-import About from '../About';
-import Layout from '../../hoc/Layout/Layout';
 import { Route } from 'react-router-dom';
-import styles from './App.module.css';
+import About from '../pages/About';
+import Auth from '../pages/Auth';
+import Home from '../pages/Home';
+import Header from './Header';
+import Layout from '../hoc/Layout';
+import styles from '../styles/App.module.css';
 
 const app = () => (
   <div className={styles.App}>
